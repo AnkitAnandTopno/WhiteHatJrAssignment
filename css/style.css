@@ -1,0 +1,21 @@
+.whj-container{
+    padding: 30px
+}
+.whj-head-container{
+    padding: 20px;
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+}
+.whj-head-text{
+    color: lightseagreen;
+}
+.whj-body-container{
+
+}
+.whj-body-header3{
+    margin-top: 50px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
