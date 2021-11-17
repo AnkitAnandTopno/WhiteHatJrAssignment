@@ -1,21 +1,76 @@
+hr{
+    border-color: #fb6404;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    width: 50%;
+    padding: 10px;
+    background-color: #aaa;
+    color: white;
+}
+td{
+    width: 50%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #aaa;
+}
 .whj-container{
     padding: 30px
 }
 .whj-head-container{
-    padding: 20px;
-    border: 1px solid red;
-    width: 200px;
-    height: 100px;
+    padding: 10px;
+    display: flex;
+}
+.whj-head-container-sub-left{
+    padding: 10px;
+    border: 1px solid #fb6404;
+    flex: 1;
+}
+.whj-head-container-sub-right{
+    padding: 10px;
+    flex: 1;
+}
+.whj-head-logo{
+    width: 300px;
 }
 .whj-head-text{
-    color: lightseagreen;
+    color: #048bab;
+}
+.whj-head-text-sub{
+    color: #fb6404;
 }
 .whj-body-container{
 
 }
+.whj-body-container-text-image{
+    display: flex;
+    flex-direction: row;
+}
+.whj-body-table-image-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .whj-body-header3{
     margin-top: 50px;
-    background-color: blueviolet;
+    background-color: #048bab;
     color: white;
     padding: 10px;
+    width: 50%;
+    border-bottom: 3px solid #048bab;
+    position:relative;
+}
+.whj-body-header3::before{
+    content: "";
+   position: absolute;
+   height: 0;
+   width: 0;
+   left: 0;
+   bottom: -23px;
+   border-bottom: 20px solid transparent;
+   border-right: 20px solid #fb6404;
 }
